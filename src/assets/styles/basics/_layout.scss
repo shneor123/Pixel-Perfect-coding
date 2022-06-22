@@ -1,0 +1,11 @@
+.main-container {
+    display: grid;
+    // grid-template-columns: 1fr 1440px 1fr;
+    
+
+    > * {
+        &.full {
+            grid-column: 1 /-1;
+        }
+    }
+}
